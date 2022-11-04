@@ -56,9 +56,8 @@ public class Ex01 {
 		// map에 map 전체 추가하기
 		Map<String, Integer> map2 = new HashMap<>();
 		map2.put("z", 100);
-		map2.putAll(map1)
+		map2.putAll(map1);
 		System.out.println("map2:" + map2);
-		
 
 	}
 
